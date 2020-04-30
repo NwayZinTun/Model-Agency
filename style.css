@@ -2,7 +2,7 @@
 	font-family: RobotoSlab-VariableFont_wght;
 }
 #banner{
-	background: linear-gradient(to bottom, rgba(218, 165, 146, .4)0, rgba(218, 165, 146, .4)100%),url(images/banner_img7.jpg);
+	background: linear-gradient(to bottom, rgba(218, 165, 146, .4)0, rgba(218, 165, 146, .4)100%),url(images/banner_img9.jpeg);
 	width: 100%;
 	height: 100vh; /*vh=view height*/
 	background-repeat: no-repeat;
@@ -12,13 +12,14 @@
 
 #headertitle{
 	font-family: Lobster-Regular;
+	color: #d41556;
 }
 
 #divider{
 	/*1rem = 16px;*/
 	max-width: 3.25rem;
 	border-width: .2rem;
-	border-color: #fff;
+	border-color: #d41556;
 }
 
 #headermain{
@@ -28,5 +29,78 @@
 	text-transform: uppercase;
 	border: none;
 	border-radius: 10rem;
-	background-color: #fff;
+	background-color: #d41556;
+}
+
+#banner2{
+	background: url(images/banner_img8.jpg);
+	/*background: linear-gradient(to bottom, rgba(218, 165, 146, .4)0, rgba(218, 165, 146, .4)100%),url(images/banner_img5.jpg);*/
+	width: 100%;
+	height: 300px; 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.card{
+	width: 300px;
+	height: 400px;
+}
+.card img{
+	width: 300px;
+	height: 400px;
+}
+
+/*to fit image*/
+.fit-image{
+	width: 100%;
+	object-fit: cover;
+	height: 500px;
+}
+
+#welcome{
+	text-transform: uppercase;
+	color: #d41556;
+}
+
+div.quote{
+	position: absolute;
+	background-color: white;
+	color: #d41556;
+	/*padding: 20px;*/
+}
+
+#banner3{
+	background: linear-gradient(to bottom, rgba(218, 165, 146, .4)0, rgba(218, 165, 146, .4)100%),url(images/banner_img8.jpg);
+	width: 100%;
+	height: 300px; /*vh=view height*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.pagination li {
+    display: inline;
+    color: #d41556;
+}
+
+.pagination a {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    color: #d41556;
+    text-decoration: none;
+    /*border: 1px solid #ddd;*/
+    border-left-width: 0;
+}
+.pagination a:hover,
+.pagination .active a {
+    background-color: #d41556;
+    color: #ffffff;
+}	
+
+/*contact.html*/
+.card_for_contact{
+	width: 250px;
+	height: auto;
 }
